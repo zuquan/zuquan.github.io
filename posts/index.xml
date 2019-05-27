@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Head-up &amp; Look</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 May 2019 23:42:15 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2019 22:44:08 +0800</lastBuildDate>
     
 	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Install_hugo_gitpage</title>
+      <link>http://example.org/posts/install_hugo_gitpage/</link>
+      <pubDate>Mon, 27 May 2019 22:44:08 +0800</pubDate>
+      
+      <guid>http://example.org/posts/install_hugo_gitpage/</guid>
+      <description>The first blog in this site is natural about how to install Hugo in Git Page. Although a lot of articles are about this and even though I also read other articles, it is important to me that to record the steps, not only for the need of reinstall in the future, but for the recording itself, which is the recreation that help my mind reborn.
+install hugo  brew install hugo which hugo hugo version  hugo command  hugo new site quickstart</description>
+    </item>
     
     <item>
       <title>My First Post</title>
