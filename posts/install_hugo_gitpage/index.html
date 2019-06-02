@@ -43,7 +43,7 @@ install hugo  brew install hugo which hugo hugo version  hugo command  hugo new 
 
 <meta itemprop="datePublished" content="2019-05-27T22:44:08&#43;08:00" />
 <meta itemprop="dateModified" content="2019-05-27T22:44:08&#43;08:00" />
-<meta itemprop="wordCount" content="87">
+<meta itemprop="wordCount" content="121">
 
 
 
@@ -117,17 +117,33 @@ install hugo  brew install hugo which hugo hugo version  hugo command  hugo new 
 <h3 id="install-hugo">install hugo</h3>
 
 <ol>
-<li>brew install hugo</li>
-<li>which hugo</li>
-<li>hugo version</li>
+<li><code>brew install hugo</code></li>
+<li><code>which hugo</code></li>
+<li><code>hugo version</code></li>
 </ol>
 
 <h3 id="hugo-command">hugo command</h3>
 
 <ol>
-<li>hugo new site quickstart<br />
+<li><code>hugo new site quickstart</code><br />
 creat a new site</li>
-<li>hugo server</li>
+<li><code>hugo server</code></li>
+</ol>
+
+<h3 id="add-to-git-page">add to Git Page</h3>
+
+<ol>
+<li>create a <code>&lt;username&gt;.github.io</code> repository in GitHub</li>
+<li><code>git submodule add  git@github.com:zuquan/zuquan.github.io.git public</code></li>
+<li><code>run ./deploy.sh</code><br />
+refer to <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">this</a></li>
+</ol>
+
+<h3 id="misc">misc</h3>
+
+<ol>
+<li><code>git remote add origin https://github.com/zuquan/quickstartblog.git</code><br />
+to add a local project to the GitHub</li>
 </ol>
 <ul class="pa0">
   
