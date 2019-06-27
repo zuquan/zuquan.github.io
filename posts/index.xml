@@ -2,31 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on AE(Look-up) &amp; !FE(Look-away)</title>
-    <link>http://example.org/posts/</link>
+    <link>https://zuquan.github.io/posts/</link>
     <description>Recent content in Posts on AE(Look-up) &amp; !FE(Look-away)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 May 2019 22:44:08 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jun 2019 22:40:30 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zuquan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Wechat_aud2mp3</title>
+      <link>https://zuquan.github.io/posts/wechat_aud2mp3/</link>
+      <pubDate>Mon, 24 Jun 2019 22:40:30 +0800</pubDate>
+      
+      <guid>https://zuquan.github.io/posts/wechat_aud2mp3/</guid>
+      <description>Come a request that merge the audios in the wechat to a file of mp3. The following is the steps, after more than a week&amp;rsquo;s study&amp;hellip;
+ get the raw data files via itunes backup. Note that here is based on iphone setting.
+ backup by itunes without encrypted, removing profile in general setting. use iExpoler app to get the backup files. There is an &amp;ldquo;Audio&amp;rdquo; folder which contains the aud files.</description>
+    </item>
+    
+    <item>
       <title>Install_hugo_gitpage</title>
-      <link>http://example.org/posts/install_hugo_gitpage/</link>
+      <link>https://zuquan.github.io/posts/install_hugo_gitpage/</link>
       <pubDate>Mon, 27 May 2019 22:44:08 +0800</pubDate>
       
-      <guid>http://example.org/posts/install_hugo_gitpage/</guid>
+      <guid>https://zuquan.github.io/posts/install_hugo_gitpage/</guid>
       <description>The first blog in this site is natural about how to install Hugo in Git Page. Although a lot of articles are about this and even though I also read other articles, it is important to me that to record the steps, not only for the need of reinstall in the future, but for the recording itself, which is the recreation that help my mind reborn.
 install hugo  brew install hugo which hugo hugo version  hugo command  hugo new site quickstart</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <link>https://zuquan.github.io/posts/my-first-post/</link>
       <pubDate>Sun, 26 May 2019 23:42:15 +0800</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
+      <guid>https://zuquan.github.io/posts/my-first-post/</guid>
       <description>This is my first post in Hugo. I still need to learn Markdown first.</description>
     </item>
     
