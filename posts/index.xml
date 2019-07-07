@@ -1,44 +1,103 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on AE(Look-up) &amp; !FE(Look-away)</title>
+    <title>Posts on AG(Look-up) &amp; !FE(Look-away)</title>
     <link>https://zuquan.github.io/posts/</link>
-    <description>Recent content in Posts on AE(Look-up) &amp; !FE(Look-away)</description>
+    <description>Recent content in Posts on AG(Look-up) &amp; !FE(Look-away)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Jun 2019 22:40:30 +0800</lastBuildDate>
-    
-	<atom:link href="https://zuquan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://zuquan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Wechat_aud2mp3</title>
       <link>https://zuquan.github.io/posts/wechat_aud2mp3/</link>
       <pubDate>Mon, 24 Jun 2019 22:40:30 +0800</pubDate>
-      
       <guid>https://zuquan.github.io/posts/wechat_aud2mp3/</guid>
-      <description>Come a request that merge the audios in the wechat to a file of mp3. The following is the steps, after more than a week&amp;rsquo;s study&amp;hellip;
- get the raw data files via itunes backup. Note that here is based on iphone setting.
- backup by itunes without encrypted, removing profile in general setting. use iExpoler app to get the backup files. There is an &amp;ldquo;Audio&amp;rdquo; folder which contains the aud files.</description>
+      <description>&lt;p&gt;Come a request that merge the audios in the wechat to a file of mp3. The following is the steps, after more than a week&amp;rsquo;s study&amp;hellip;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;get the raw data files via itunes backup. Note that here is based on iphone setting.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;backup by itunes without encrypted, removing profile in general setting.&lt;/li&gt;
+&lt;li&gt;use iExpoler app to get the backup files. There is an &amp;ldquo;Audio&amp;rdquo; folder which contains the aud files.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;find . -name &amp;quot;*.aud&amp;quot; -newermt 2019-06-13 ! -newermt 2019-06-14 | xargs -I{} cp {} 0613&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;transfer the aud files to mp3 files&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;./converter.sh ../../0622/4th/aud/ ../../0622/4th/mp3/ mp3&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;merge to a whole mp3 file&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;make a list: &lt;code&gt;ls *.mp3 | xargs -t -I{} echo file \&#39;{}\&#39; &amp;gt;&amp;gt; mylist.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;concate to a file: &lt;code&gt;ffmpeg -f concat -i mylist.txt -c copy output.mp3&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Reference:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/30112442&#34;&gt;https://www.zhihu.com/question/30112442&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kronopath.net/blog/extracting-audio-messages-from-wechat/&#34;&gt;https://kronopath.net/blog/extracting-audio-messages-from-wechat/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jianshu.com/p/03c49fe1b20b&#34;&gt;https://www.jianshu.com/p/03c49fe1b20b&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
     </item>
     
     <item>
       <title>Install_hugo_gitpage</title>
       <link>https://zuquan.github.io/posts/install_hugo_gitpage/</link>
       <pubDate>Mon, 27 May 2019 22:44:08 +0800</pubDate>
-      
       <guid>https://zuquan.github.io/posts/install_hugo_gitpage/</guid>
-      <description>The first blog in this site is natural about how to install Hugo in Git Page. Although a lot of articles are about this and even though I also read other articles, it is important to me that to record the steps, not only for the need of reinstall in the future, but for the recording itself, which is the recreation that help my mind reborn.
-install hugo  brew install hugo which hugo hugo version  hugo command  hugo new site quickstart</description>
+      <description>
+
+&lt;p&gt;The first blog in this site is natural about how to install Hugo in Git Page. Although a lot of articles are about this and even though I also read other articles, it is important to me that to record the steps, not only for the need of reinstall in the future, but for the recording itself, which is the recreation that help my mind reborn.&lt;/p&gt;
+
+&lt;h3 id=&#34;install-hugo&#34;&gt;install hugo&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;brew install hugo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;which hugo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo version&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;hugo-command&#34;&gt;hugo command&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;hugo new site quickstart&lt;/code&gt;&lt;br /&gt;
+creat a new site&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo server&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;add-to-git-page&#34;&gt;add to Git Page&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;create a &lt;code&gt;&amp;lt;username&amp;gt;.github.io&lt;/code&gt; repository in GitHub&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git submodule add  git@github.com:zuquan/zuquan.github.io.git public&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;run ./deploy.sh&lt;/code&gt;&lt;br /&gt;
+refer to &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;this&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;misc&#34;&gt;misc&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;git remote add origin https://github.com/zuquan/quickstartblog.git&lt;/code&gt;&lt;br /&gt;
+to add a local project to the GitHub&lt;/li&gt;
+&lt;/ol&gt;
+</description>
     </item>
     
     <item>
       <title>My First Post</title>
       <link>https://zuquan.github.io/posts/my-first-post/</link>
       <pubDate>Sun, 26 May 2019 23:42:15 +0800</pubDate>
-      
       <guid>https://zuquan.github.io/posts/my-first-post/</guid>
-      <description>This is my first post in Hugo. I still need to learn Markdown first.</description>
+      <description>&lt;p&gt;This is my first post in Hugo. I still need to learn Markdown first.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
