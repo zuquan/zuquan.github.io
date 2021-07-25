@@ -4,13 +4,18 @@
   
   <url>
     <loc>https://zuquan.github.io/</loc>
-    <lastmod>2019-06-24T22:40:30+08:00</lastmod>
+    <lastmod>2021-07-25T15:40:43+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://zuquan.github.io/posts/my-test-post/</loc>
+    <lastmod>2021-07-25T15:40:43+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zuquan.github.io/posts/</loc>
-    <lastmod>2019-06-24T22:40:30+08:00</lastmod>
+    <lastmod>2021-07-25T15:40:43+08:00</lastmod>
     <priority>0</priority>
   </url>
   

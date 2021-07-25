@@ -5,8 +5,21 @@
     <description>Recent content on AG(Look-up) &amp; !FE(Look-away)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jun 2019 22:40:30 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jul 2021 15:40:43 +0800</lastBuildDate>
     <atom:link href="https://zuquan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My Test Post</title>
+      <link>https://zuquan.github.io/posts/my-test-post/</link>
+      <pubDate>Sun, 25 Jul 2021 15:40:43 +0800</pubDate>
+      <guid>https://zuquan.github.io/posts/my-test-post/</guid>
+      <description>&lt;p&gt;This is a test page.&lt;/p&gt;
+
+&lt;p&gt;See what happened.&lt;/p&gt;
+
+&lt;p&gt;Today is the day that typoon In-Fa landing.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Wechat_aud2mp3</title>
@@ -20,7 +33,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;backup by itunes without encrypted, removing profile in general setting.&lt;/li&gt;
-&lt;li&gt;use iExpoler app to get the backup files. There is an &amp;ldquo;Audio&amp;rdquo; folder which contains the aud files.&lt;/li&gt;
+&lt;li&gt;use iExpoler app to get the backup files. There is an &amp;ldquo;Audio&amp;rdquo; folder which contains the aud files. The directory is: App/com.tencent.xin/Documents/20d&amp;hellip;/Audio&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;find . -name &amp;quot;*.aud&amp;quot; -newermt 2019-06-13 ! -newermt 2019-06-14 | xargs -I{} cp {} 0613&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
